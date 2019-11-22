@@ -1818,6 +1818,7 @@ header .navbar ul li:last-child:before {
 
 .footer ul li {
     margin-bottom: 8px;
+    color: #fff !important;
 }
 
 .footer ul li:before {

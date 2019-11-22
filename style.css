@@ -441,7 +441,6 @@ a.btn-social,
 .catagories ul li a {
     color: #666;
     font-size: 16px;
-    display: block;
     line-height: 2;
     margin-right: 15px;
     width: 100%;
@@ -451,6 +450,10 @@ a.btn-social,
 .catagories #wp-calendar tr th, tr td{
     padding: 8px;
     color: #6c757d !important;
+}
+.catagories select{
+    width: 100%;
+    display: block !important;
 }
 .footer .col-md-3{
     overflow: hidden;
@@ -556,6 +559,10 @@ a.btn-social,
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     -o-border-radius: 6px;
+}
+.blog-posts{
+    display: block !important;
+    overflow: hidden;
 }
 .blog-posts img{
     max-width: 770px;

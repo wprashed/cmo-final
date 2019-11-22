@@ -49,10 +49,12 @@ $title = urlencode(html_entity_decode(get_the_title(), ENT_COMPAT, 'UTF-8'));
 					    <div class="single-post-share">
 					        <div class="single-left-content d-flex justify-content-start">
 					            <p>
+					            	<?php if (has_tag()) {?>
 					                <i class="fa fa-tag"></i>
 					                <?php
 						            	echo get_the_tag_list();
 						            ?>
+						            <?php } ?>
 					            </p>
 					        </div>
 					        <div class="single-right-content d-flex justify-content-end">
