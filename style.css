@@ -14,9 +14,6 @@ Text Domain: cmo
 
 /* CMO Theme */
 
-*:focus{
-    outline: 0;
-}
 a:hover {
     text-decoration: none;
 }
@@ -757,6 +754,7 @@ div.comment:first-of-type {
 }
 .comment-form-comment #comment{
     background-color: #e9ecee;
+    color: #666666;
     height: 175px;
     border-radius: 0px;
     border: none;
@@ -767,32 +765,38 @@ div.comment:first-of-type {
 }
 .comment-form-author #author{
     background-color: #e9ecee;
+    color: #666666;
+    padding: 0px 10px;
     margin-bottom: 15px;
     border: none;
     width: 100%;
     position: relative;
     float: left;
-    height: 50px;
+    height: 45px;
     margin-right: 15px;
 }
 .comment-form-email #email{
     background-color: #e9ecee;
+    color: #666666;
+    padding: 0px 10px;
     margin-bottom: 15px;
     border: none;
     width: 100%;
     position: relative;
     float: left;
-    height: 50px;
+    height: 45px;
     margin-right: 15px;
 }
 .comment-form-url #url{
     background-color: #e9ecee;
+    color: #666666;
+    padding: 0px 10px;
     margin-bottom: 15px;
     border: none;
     width: 100%;
     position: relative;
     float: left;
-    height: 50px;
+    height: 45px;
     margin-right: 15px;
 }
 

@@ -85,7 +85,7 @@ if ( $comments ) {
 				}
 				?>
 
-				<nav class="comments-pagination pagination<?php echo $pagination_classes; //phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static output ?>" aria-label="<?php esc_attr_e( 'Comments', 'cmo' ); ?>">
+				<nav class="comments-pagination pagination<?php echo wp_kses_post($pagination_classes); //phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static output ?>" aria-label="<?php esc_attr_e( 'Comments', 'cmo' ); ?>">
 					<?php echo wp_kses_post( $comment_pagination ); ?>
 				</nav>
 
