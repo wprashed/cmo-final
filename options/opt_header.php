@@ -35,7 +35,7 @@
                 'id'       => 'cmo_switch-on_search',
                 'type'     => 'switch',
                 'title'    => esc_html__( 'Search Button', 'cmo' ),
-                'default'  => true,
+                'default'  => false,
             ),
             array(
                 'id'       => 'get_quote_button',
@@ -65,7 +65,6 @@
                 'id'       => 'get_language_scode',
                 'type'     => 'text',
                 'title'    => esc_html__( 'Language Shortcode', 'cmo' ),
-                'default'  => '',
             ),
             array(
                 'id'       => 'cmo_header_top_color',

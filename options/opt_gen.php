@@ -31,25 +31,23 @@ Redux::setSection( $opt_name, array(
                 'id'       => 'contact_info_title',
                 'type'     => 'text',
                 'title'    => esc_html__( 'Title', 'cmo' ),
-                'default'  => 'Default Text',
             ),
             array(
                 'id'       => 'header_info_email',
                 'type'     => 'text',
                 'title'    => esc_html__( 'Email', 'cmo' ),
-                'default'  => 'Default Text',
+                'default'  => 'mail@example.com',
             ),
             array(
                 'id'        => 'header_info_phone',
                 'type'      => 'text',
                 'title'     => esc_html__( 'Phone', 'cmo' ),
-                'default'   => 'Default Text',
+                'default'   => '+145 (2466) 888',
             ),
             array(
                 'id'        => 'header_open_hour',
                 'type'      => 'text',
                 'title'     => esc_html__( 'Open Hour & day', 'cmo' ),
-                'default'   => 'Default Text',
             ),
             array(
                 'id'       => 'cmo-textarea',
@@ -68,13 +66,12 @@ Redux::setSection( $opt_name, array(
                 'id'       => 'contact_form_title',
                 'type'     => 'text',
                 'title'    => esc_html__( 'Title', 'cmo' ),
-                'default'  => 'Default Text',
             ),
             array(
                 'id'       => 'contact_form_shortcode',
                 'type'     => 'text',
                 'title'    => esc_html__( 'CF7 Shortcode', 'cmo' ),
-                'default'  => 'Default Text',
+
             ),            
         )
     ) );

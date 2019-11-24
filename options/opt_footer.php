@@ -17,13 +17,11 @@ Redux::setSection('cmo', array(
             'id'       => 'footer_term_url',
             'type'     => 'text',
             'title'    => esc_html__( 'Terms of Service url', 'cmo' ),
-            'default'  => '',
         ),
         array(
             'id'       => 'footer_privacy_url',
             'type'     => 'text',
             'title'    => esc_html__( 'Privacy Policy url', 'cmo' ),
-            'default'  => '',
         ),
     )
 ));

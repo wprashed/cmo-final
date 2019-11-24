@@ -23,7 +23,7 @@
                 //'mode'      => false, // Can be set to false to allow any media type, or can also be set to any mime type.
                 'desc'     => esc_html__( 'Header Logo Size: 170px X 50px..', 'cmo' ),
                 //'subtitle' => esc_html__( 'Upload any media using the WordPress native uploader', 'cmo' ),
-                'default'  => array( 'url' => 'https://s.wordpress.org/style/images/codeispoetry.png' ),
+                'default'  => array( 'url' => 'http://cmo.anditthemes.com/style2/wp-content/uploads/2019/11/logoh1.png' ),
                 //'hint'      => array(
                 //    'title'     => 'Hint Title',
                 //    'content'   => 'This is a <b>hint</b> for the media field with a Title.',
@@ -38,7 +38,7 @@
                 //'mode'      => false, // Can be set to false to allow any media type, or can also be set to any mime type.
                 'desc'     => esc_html__( 'Header Logo Size: 170px X 50px..', 'cmo' ),
                 //'subtitle' => esc_html__( 'Upload any media using the WordPress native uploader', 'cmo' ),
-                'default'  => array( 'url' => 'https://s.wordpress.org/style/images/codeispoetry.png' ),
+                'default'  => array( 'url' => 'http://cmo.anditthemes.com/style1/wp-content/uploads/2019/11/white-logoh1.png' ),
                 //'hint'      => array(
                 //    'title'     => 'Hint Title',
                 //    'content'   => 'This is a <b>hint</b> for the media field with a Title.',
@@ -53,7 +53,7 @@
                 //'mode'      => false, // Can be set to false to allow any media type, or can also be set to any mime type.
                 'desc'     => esc_html__( 'Footer Logo Size: 170px X 50px.', 'cmo' ),
                 //'subtitle' => esc_html__( 'Upload any media using the WordPress native uploader', 'cmo' ),
-                'default'  => array( 'url' => 'https://s.wordpress.org/style/images/codeispoetry.png' ),
+                'default'  => array( 'url' => 'http://cmo.anditthemes.com/style2/wp-content/uploads/2019/11/logo-sm.png' ),
                 //'hint'      => array(
                 //    'title'     => 'Hint Title',
                 //    'content'   => 'This is a <b>hint</b> for the media field with a Title.',
@@ -68,7 +68,7 @@
                 //'mode'      => false, // Can be set to false to allow any media type, or can also be set to any mime type.
                 'desc'     => esc_html__( 'Footer Logo Size: 170px X 50px.', 'cmo' ),
                 //'subtitle' => esc_html__( 'Upload any media using the WordPress native uploader', 'cmo' ),
-                'default'  => array( 'url' => 'https://s.wordpress.org/style/images/codeispoetry.png' ),
+                'default'  => array( 'url' => 'http://cmo.anditthemes.com/style2/wp-content/uploads/2019/11/logo-sm.png' ),
                 //'hint'      => array(
                 //    'title'     => 'Hint Title',
                 //    'content'   => 'This is a <b>hint</b> for the media field with a Title.',
